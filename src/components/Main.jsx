@@ -41,8 +41,11 @@ const Main = () => {
         </div>
 
         {/* PARTIE IMAGE */}
-        <div className="w-[400px]">
+        <div className="hidden lg:block w-[400px]">
           <img src={heroDesktop} alt="" />
+        </div>
+        <div className="lg:hidden">
+          <img src={heroMobile} alt="" />
         </div>
       </div>
     </main>
